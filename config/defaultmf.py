@@ -3,7 +3,7 @@ _CN = CN()
 
 _CN.MATCHFORMER = CN()
 _CN.MATCHFORMER.BACKBONE_TYPE = 'largela'# litela,largela,litesea,largesea
-_CN.MATCHFORMER.SCENS = 'indoor' # indoor, outdoor
+_CN.MATCHFORMER.SCENS = 'outdoor' # indoor, outdoor
 _CN.MATCHFORMER.RESOLUTION = (8,2)  #(8,2),(8,4)
 _CN.MATCHFORMER.FINE_WINDOW_SIZE = 5
 _CN.MATCHFORMER.FINE_CONCAT_COARSE_FEAT = True
